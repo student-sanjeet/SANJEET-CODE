@@ -1,0 +1,33 @@
+@import '../../styles/variable.scss';
+
+.desktop-fights{
+    color: $default-color;
+    max-width: $desktop-max-width;
+    padding: 56px 20px 50px 20px;
+
+
+    .book-flight-section{
+        grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+        border: 1px solid #e7e7e7;
+
+        .box:not(:last-child){
+            transition: 0.4s ease;
+            border-right: 1px solid #e7e7e7;
+
+        }
+        .box:hover{
+            background-color: #4c88ba24;
+        }
+    }
+
+    .search-btn-container{
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .text{
+            background-image: linear-gradient(93deg, $primary-color, $secondary-color);
+            width: 216px;
+        }
+    }
+}

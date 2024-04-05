@@ -1,0 +1,1 @@
+export const HEADER_LOGO = 'https://www.easemyvacation.com/images/logo.png'
