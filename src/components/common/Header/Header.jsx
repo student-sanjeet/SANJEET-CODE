@@ -2,6 +2,7 @@ import React from 'react'
 import { Desktop, Mobile } from '../Responsive'
 import { HEADER_LOGO } from './Constant'
 import './Header.scss'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -12,7 +13,8 @@ const Header = () => {
                 <img width={113} height={36} src={HEADER_LOGO} alt="logo" />
                 <div className='flex gap-2' >
                     <div className='login-btn py-2 px-9 rounded' >
-                      Login
+                      <Link to="./login" >Login</Link>
+                    
                     </div>
                     <div className='language-btn py-2 px-9 rounded' >
                       Language

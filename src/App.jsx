@@ -6,6 +6,8 @@ import Hotels from './container/Hotels';
 import Header from './components/common/Header/Header';
 import Tabs from './components/common/Header/Tabs';
 import { TravelInsurance } from './container/TravelIsurance/TravelInsurance';
+import Login from './components/common/Header/Login'; 
+import SignupPage from './components/common/Header/Signup';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Route path="/travelinsurance" element={<TravelInsurance />} />
           <Route path="/" element={<Home />} />
           <Route component={<h2>Not Found</h2>} />
+          <Route path="/login" element={<Login />} />
+          <Route path="login/signup" element={<SignupPage />} />
         </Routes>
         </div>
       </BrowserRouter>

@@ -1,0 +1,168 @@
+/* Reset CSS */
+
+  
+  .login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    margin:  40px auto;
+
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .login-form p {
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    padding:  5px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #db5a10;
+    outline: none;
+  }
+  
+  .emv {
+    padding: 5px 15px !important;
+    border: none;
+    border-radius: 8px ;
+    background-color: #007bff  !important;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .emv:hover {
+    background-color: #e41010  !important;
+  }
+  
+  .bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  .bottom-text p {
+    margin-bottom: 10px;
+  }
+  
+  .bottom-text a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .bottom-text a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .login-container {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+
+  .emvl{
+    font-size:28px ;
+    font-weight:600 ;
+    margin-bottom:30px !important;
+    text-align: center;
+  }
+  
+
+
+ 
+
+  .def{
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+
+  .wert{
+    padding: 5px 15px;
+    background-color: #0056b3 !important;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .wert:hover {
+    background-color: #e41010 !important;
+  }
+
+  /* registration css start */
+
+  .asa{
+    /* margin: 0 auto;
+  width: 500px;
+  padding: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px; */
+
+  background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+    /* text-align: center; */
+    margin:  40px auto;
+
+  }
+
+  .envinput{
+width: 100%;
+padding: 5px 15px;
+margin-bottom: 20px;
+border-radius: 8px !important;
+  }
+
+  .emvs{
+    font-size:28px ;
+    font-weight:600 ;
+    margin-bottom:30px ;
+    text-align: center;
+  }
+  
